@@ -25,7 +25,7 @@ export default function PokemonDetail(props) {
     async function getTime() {
       try {
         const response = await fetch(
-          `http://worldtimeapi.org/api/timezone/Asia/Jakarta`
+          `https://worldtimeapi.org/api/timezone/Asia/Jakarta`
         );
         const result = await response.json();
 

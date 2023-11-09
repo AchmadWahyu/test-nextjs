@@ -6,7 +6,7 @@ export const getStaticProps = async (ctx) => {
   const resultData = await responseData.json();
 
   const responseTime = await fetch(
-    `http://worldtimeapi.org/api/timezone/Asia/Jakarta`
+    `https://worldtimeapi.org/api/timezone/Asia/Jakarta`
   );
   const resultTime = await responseTime.json();
 
