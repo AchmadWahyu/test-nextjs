@@ -43,7 +43,7 @@ export default function LocationDetail(props) {
       <h1>SSG fallback false</h1>
       <h2>{props?.data?.name}</h2>
       <h3>
-        <i>{new Date(props?.time?.datetime).toString()}</i>
+        <i>{props?.time?.datetime}</i>
       </h3>
     </div>
   );

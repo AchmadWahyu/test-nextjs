@@ -44,7 +44,7 @@ export default function MoveDetail(props) {
       <h1>ISR (SSG fallback)</h1>
       <h2>{props?.data?.name}</h2>
       <h3>
-        <i>{new Date(props?.time?.datetime).toString()}</i>
+        <i>{props?.time?.datetime}</i>
       </h3>
     </div>
   );

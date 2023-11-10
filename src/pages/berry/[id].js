@@ -24,7 +24,7 @@ export default function BerryDetail(props) {
       <h1>SSR</h1>
       <h2>{props?.data?.name}</h2>
       <h3>
-        <i>{new Date(props?.time?.datetime).toString()}</i>
+        <i>{props?.time?.datetime}</i>
       </h3>
     </div>
   );
