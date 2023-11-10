@@ -15,7 +15,7 @@ export const getStaticProps = async (ctx) => {
       data: resultData,
       time: resultTime,
     },
-    revalidate: 15
+    revalidate: 60
   };
 };
 
